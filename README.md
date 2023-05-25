@@ -4,4 +4,8 @@
 MACCIF-TDNN is implemented based on Speechbrain https://github.com/speechbrain/speechbrain. Make sure SpeechBrain is installed correctly.
 
 ## Usage
-Add 
+(1) Add MACCIF.py, MultiHeadAttentionPoolingC.py, PositionEncode.py into speechbrain/lobes/models/ folder; 
+
+(2) Modify speechbrain/recipes/VoxCeleb/SpeakerRec/hparams/train_ecapa_tdnn.yaml
+
+
