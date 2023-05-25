@@ -8,6 +8,9 @@ MACCIF-TDNN is implemented based on Speechbrain https://github.com/speechbrain/s
 
 (2) Modify speechbrain/recipes/VoxCeleb/SpeakerRec/hparams/train_ecapa_tdnn.yaml
 
+## Training strategy
+Refer to the details in the paper.
+
 ## Performance
 ![j](https://github.com/xyw7/maccif/blob/main/img.png)
 
