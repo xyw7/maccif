@@ -486,7 +486,7 @@ class SERes2NetBlock(nn.Module):
         return x + residual
 
 
-class ECAPA_TDNN(torch.nn.Module):
+class MACCIF(torch.nn.Module):
     """An implementation of the speaker embedding model in a paper.
     "ECAPA-TDNN: Emphasized Channel Attention, Propagation and Aggregation in
     TDNN Based Speaker Verification" (https://arxiv.org/abs/2005.07143).
